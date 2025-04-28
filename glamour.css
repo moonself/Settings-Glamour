@@ -1,0 +1,295 @@
+/* Actual important stuff */
+
+
+.selectedBackground_e681d1,
+.premiumLabel_e681d1 svg,
+.tabBarItemContainer_c7e907 svg {
+    display: none;
+}
+.sidebar__23e6b {
+    margin-right: 8px;
+}
+.sidebar__23e6b .separator_b3f026 {
+    margin-left: 18px !important;
+}
+.sidebar__23e6b .header_b3f026 {
+    margin-left: 8px !important;
+}
+.sidebar__23e6b .themed_b3f026 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    margin-right: 12px;
+    height: 30px !important;
+    overflow: visible;
+}
+.sidebar__23e6b .themed_b3f026::before {
+    content: "";
+    display: ab;
+    width: 24px;
+    height: 24px;
+    background-color: var(--interactive-normal);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    margin-right: 12px;
+    margin-left: -38px;
+    pointer-events: none;
+    z-index: 2;
+}
+/* User Settings */
+div[data-tab-id="My Account"]::before {
+    mask-image: var(--svg-my-account);
+}
+div[data-tab-id="Profile Customization"]::before {
+    mask-image: var(--svg-profiles);
+}
+div[data-tab-id="Content & Social"]::before {
+    mask-image: var(--svg-content-social);
+}
+div[data-tab-id="Data & Privacy"]::before {
+    mask-image: var(--svg-data-privacy);
+}
+div[data-tab-id="Family Center"]::before {
+    mask-image: var(--svg-family-center);
+}
+div[data-tab-id="Authorized Apps"]::before {
+    mask-image: var(--svg-authorized-apps);
+}
+div[data-tab-id="Sessions"]::before {
+    mask-image: var(--svg-devices);
+}
+div[data-tab-id="Connections"]::before {
+    mask-image: var(--svg-connections);
+}
+div[data-tab-id="Settings Clips"]::before {
+    mask-image: var(--svg-clips);
+}
+/* Billing Settings */
+div[data-tab-id="Discord Nitro"]::before {
+    mask-image: var(--svg-nitro);
+    transition: background-color 0.3s ease;
+}
+div[data-tab-id="Discord Nitro"]:focus-within::before,
+div[data-tab-id="Discord Nitro"]:hover::before {
+    background-color: var(--brand-500);
+}
+div[data-tab-id="Nitro Server Boost"]::before {
+    mask-image: var(--svg-server-boost);
+    transition: background-color 0.3s ease;
+}
+div[data-tab-id="Nitro Server Boost"]:focus-within::before,
+div[data-tab-id="Nitro Server Boost"]:hover::before {
+    background-color: var(--guild-boosting-pink);
+}
+div[data-tab-id="Subscriptions"]::before {
+    mask-image: var(--svg-subscriptions);
+}
+div[data-tab-id="Library Inventory"]::before {
+    mask-image: var(--svg-gift-inventory);
+}
+div[data-tab-id="Billing"]::before {
+    mask-image: var(--svg-billing);
+}
+/* App Settings */
+div[data-tab-id="Appearance"]::before {
+    mask-image: var(--svg-appearance);
+}
+div[data-tab-id="Accessibility"]::before {
+    mask-image: var(--svg-accessibility);
+}
+div[data-tab-id="Voice & Video"]::before {
+    mask-image: var(--svg-voice-video);
+}
+div[data-tab-id="Text & Images"]::before {
+    mask-image: var(--svg-chat);
+}
+div[data-tab-id="Notifications"]::before {
+    mask-image: var(--svg-notifications);
+}
+div[data-tab-id="Keybinds"]::before {
+    mask-image: var(--svg-keybinds);
+}
+div[data-tab-id="Language"]::before {
+    mask-image: var(--svg-language);
+}
+div[data-tab-id="Windows"]::before {
+    mask-image: var(--svg-windows-settings);
+}
+div[data-tab-id="Streamer Mode"]::before {
+    mask-image: var(--svg-streamer-mode);
+}
+div[data-tab-id="Advanced"]::before {
+    mask-image: var(--svg-advanced);
+}
+/* Vencord Settings*/
+div[data-tab-id="VencordSettings"]::before {
+    mask-image: var(--svg-vencord);
+}
+div[data-tab-id="VencordPlugins"]::before {
+    mask-image: var(--svg-plugins);
+}
+div[data-tab-id="VencordThemes"]::before {
+    mask-image: var(--svg-themes);
+}
+div[data-tab-id="VencordUpdater"]::before {
+    mask-image: var(--svg-updater);
+}
+div[data-tab-id="VencordCloud"]::before {
+    mask-image: var(--svg-cloud);
+}
+div[data-tab-id="VencordSettingsSync"]::before {
+    mask-image: var(--svg-backup-restore);
+}
+/* Activity Settings */
+div[data-tab-id="Activity Privacy"]::before {
+    mask-image: var(--svg-activity-privacy);
+}
+div[data-tab-id="Game Activity"]::before {
+    mask-image: var(--svg-registered-games);
+}
+div[data-tab-id="Overlay"]::before {
+    mask-image: var(--svg-game-overlay);
+}
+div[data-tab-id="changelog"]::before {
+    mask-image: var(--svg-whats-new);
+}
+div[data-tab-id="merchandise"]::before {
+    mask-image: var(--svg-merch);
+}
+div[data-tab-id="Hypesquad Online"]::before {
+    mask-image: var(--svg-HypeSquad);
+}
+/* Developer Only */
+div[data-tab-id="Experiments"]::before {
+    mask-image: var(--svg-experiments);
+}
+div[data-tab-id="Developer Options"]::before {
+    mask-image: var(--svg-dev-options);
+}
+div[data-tab-id="Hotspot Options"]::before {
+    mask-image: var(--svg-hotspot-options);
+}
+div[data-tab-id="Dismissible Content Options"]::before {
+    mask-image: var(--svg-dismiss-contents);
+}
+div[data-tab-id="Payment Flow Modals"]::before {
+    mask-image: var(--svg-payment-flow);
+}
+div[data-tab-id="Revenue Storybook"]::before {
+    mask-image: var(--svg-revenue-book);
+}
+div[data-tab-id="Virtual Currency Configuration"]::before {
+    mask-image: var(--svg-currency-config);
+}
+div[data-tab-id="Design System"]::before {
+    mask-image: var(--svg-design-systems);
+}
+div[data-tab-id="Text Playground"]::before {
+    mask-image: var(--svg-text-playground);
+}
+div[data-tab-id="Text Component"]::before {
+    mask-image: var(--svg-text-components);
+}
+div[data-tab-id="Intl Testing"]::before {
+    mask-image: var(--svg-intl-testing);
+}
+div[data-tab-id="Profile Effects Preview Tool"]::before {
+    mask-image: var(--svg-PFX-editor);
+}
+div[data-tab-id="Nameplates Preview Tool"]::before {
+    mask-image: var(--svg-nameplates-tool);
+}
+div[data-tab-id="Web Setting Tree Tool"]::before {
+    mask-image: var(--svg-web-tree-tool);
+}
+div[data-tab-id="logout"]::before {
+    mask-image: var(--svg-logout);
+}
+div[data-tab-id="logout"]::before {
+    mask-image: var(--svg-logout);
+    transition: background-color 0.3s ease;
+}
+div[data-tab-id="logout"]:focus-within::before,
+div[data-tab-id="logout"]:hover::before {
+    background-color: var(--red-400);
+}
+/* Server Settings */
+div[data-tab-id="PROFILE"]::before {
+    mask-image: var(--svg-server-profile);
+}
+div[data-tab-id="ENGAGEMENT"]::before {
+    mask-image: var(--svg-engagement);
+}
+div[data-tab-id="BOOST_PERKS"]::before {
+    mask-image: var(--svg-boost-perks);
+}
+/* Expression */
+div[data-tab-id="EMOJI"]::before {
+    mask-image: var(--svg-emoji);
+}
+div[data-tab-id="STICKERS"]::before {
+    mask-image: var(--svg-stickers);
+}
+div[data-tab-id="SOUNDBOARD"]::before {
+    mask-image: var(--svg-soundboard);
+}
+/* People */
+div[data-tab-id="MEMBERS"]::before {
+    mask-image: var(--svg-members);
+}
+div[data-tab-id="ROLES"]::before {
+    mask-image: var(--svg-roles);
+}
+div[data-tab-id="INVITES"]::before {
+    mask-image: var(--svg-invites);
+}
+div[data-tab-id="ACCESS"]::before {
+    mask-image: var(--svg-access);
+}
+/* Apps */
+div[data-tab-id="INTEGRATIONS"]::before {
+    mask-image: var(--svg-intergrations);
+}
+div[data-tab-id="APP_DIRECTORY"]::before {
+    mask-image: var(--svg-app-directory);
+}
+/* Moderation */
+div[data-tab-id="MODERATION"]::before {
+    mask-image: var(--svg-safety-setup);
+}
+div[data-tab-id="AUDIT_LOG"]::before {
+    mask-image: var(--svg-audit-log);
+}
+div[data-tab-id="BANS"]::before {
+    mask-image: var(--svg-bans);
+}
+div[data-tab-id="GUILD_AUTOMOD"]::before {
+    mask-image: var(--svg-auto-mod);
+}
+div[data-tab-id="COMMUNITY"]::before {
+    mask-image: var(--svg-enable-community);
+}
+div[data-tab-id="ROLE_SUBSCRIPTIONS"]::before {
+    mask-image: var(--svg-subscriptions);
+}
+div[data-tab-id="GUILD_PREMIUM"]::before {
+    mask-image: var(--svg-server-boost);
+    transition: background-color 0.3s ease;
+}
+div[data-tab-id="GUILD_PREMIUM"]:focus-within::before,
+div[data-tab-id="GUILD_PREMIUM"]:hover::before {
+    background-color: var(--guild-boosting-pink);
+}
+div[data-tab-id="GUILD_TEMPLATES"]::before {
+    mask-image: var(--svg-server-template);
+}
+div[data-tab-id="DELETE"]::before {
+    mask-image: var(--svg-delete-server);
+    transition: background-color 0.3s ease;
+}
+div[data-tab-id="DELETE"]:focus-within::before,
+div[data-tab-id="DELETE"]:hover::before {
+    background-color: var(--red-400);
+}
