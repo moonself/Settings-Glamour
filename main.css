@@ -87,4 +87,7 @@
     --svg-enable-community: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Enable-Community.svg');
     --svg-server-template: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Server-Template.svg');
     --svg-delete-server: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Delete-Server.svg');
+/* Channel Settings */
+    --svg-overview: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Channel%20Settings/Overview.svg');
+    --svg-permissions: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Channel%20Settings/Permissions.svg');
 }
