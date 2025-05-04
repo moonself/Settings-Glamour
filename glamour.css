@@ -143,6 +143,9 @@ div[data-tab-id="VencordCloud"]::before {
 div[data-tab-id="VencordSettingsSync"]::before {
     mask-image: var(--svg-backup-restore);
 }
+div[data-tab-id="Vesktop"]::before {
+    mask-image: var(--svg-vekstop);
+}
 /* Activity Settings */
 div[data-tab-id="Activity Privacy"]::before {
     mask-image: var(--svg-activity-privacy);
@@ -260,6 +263,9 @@ div[data-tab-id="APP_DIRECTORY"]::before {
 div[data-tab-id="MODERATION"]::before {
     mask-image: var(--svg-safety-setup);
 }
+div[data-tab-id="SAFETY"]::before {
+    mask-image: var(--svg-safety-setup);
+}
 div[data-tab-id="AUDIT_LOG"]::before {
     mask-image: var(--svg-audit-log);
 }
@@ -271,6 +277,12 @@ div[data-tab-id="GUILD_AUTOMOD"]::before {
 }
 div[data-tab-id="COMMUNITY"]::before {
     mask-image: var(--svg-enable-community);
+}
+div[data-tab-id="ONBOARDING"]::before {
+    mask-image: var(--svg-onboarding);
+}
+div[data-tab-id="ANALYTICS"]::before {
+    mask-image: var(--svg-server-insights);
 }
 div[data-tab-id="ROLE_SUBSCRIPTIONS"]::before {
     mask-image: var(--svg-subscriptions);
