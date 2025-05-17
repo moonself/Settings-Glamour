@@ -66,6 +66,7 @@
     
 /* Server Settings */
     --svg-server-profile: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Server-Profile.svg');
+    --svg-server-tag: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Server-Tag.svg';
     --svg-engagement: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Engagement.svg');
     --svg-boost-perks: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Boost-Perks.svg');
 /* Expression */
@@ -88,8 +89,10 @@
     --svg-enable-community: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Enable-Community.svg');
     --svg-server-template: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Server-Template.svg');
     --svg-delete-server: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Delete-Server.svg');
-    --svg-onboarding: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Onboarding.svg');    
+    --svg-onboarding: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Onboarding.svg');
     --svg-server-insights: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Server-Insights.svg');
+    --svg-community-welcome: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Community-Welcome.svg');
+    --svg-landing-page: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Server%20Settings/Landing-Page.svg');
 /* Channel Settings */
     --svg-overview: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Channel%20Settings/Overview.svg');
     --svg-permissions: url('https://raw.githubusercontent.com/lithwack/Settings-Glamour/refs/heads/main/SVGs/Channel%20Settings/Permissions.svg');
