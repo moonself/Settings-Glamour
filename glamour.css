@@ -223,6 +223,9 @@ div[data-tab-id="logout"]:hover::before {
 div[data-tab-id="PROFILE"]::before {
     mask-image: var(--svg-server-profile);
 }
+div[data-tab-id="TAG"]::before {
+    mask-image: var(--svg-server-tag);
+}
 div[data-tab-id="ENGAGEMENT"]::before {
     mask-image: var(--svg-engagement);
 }
@@ -283,6 +286,12 @@ div[data-tab-id="ONBOARDING"]::before {
 }
 div[data-tab-id="ANALYTICS"]::before {
     mask-image: var(--svg-server-insights);
+}
+div[data-tab-id="COMMUNITY_WELCOME"]::before {
+    mask-image: var(--svg-community-welcome);
+}
+div[data-tab-id="DISCOVERY_LANDING_PAGE"]::before {
+    mask-image: var(--svg-landing-page);
 }
 div[data-tab-id="ROLE_SUBSCRIPTIONS"]::before {
     mask-image: var(--svg-subscriptions);
