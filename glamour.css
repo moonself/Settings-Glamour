@@ -125,7 +125,7 @@ div[data-tab-id="Advanced"]::before {
     mask-image: var(--svg-advanced);
 }
 /* Vencord Settings*/
-div[data-tab-id="VencordSettings"]::before {
+div[data-tab-id="settings/tabs"]::before {
     mask-image: var(--svg-vencord);
 }
 div[data-tab-id="VencordPlugins"]::before {
@@ -140,7 +140,7 @@ div[data-tab-id="VencordUpdater"]::before {
 div[data-tab-id="VencordCloud"]::before {
     mask-image: var(--svg-cloud);
 }
-div[data-tab-id="VencordSettingsSync"]::before {
+div[data-tab-id="settings/tabsSync"]::before {
     mask-image: var(--svg-backup-restore);
 }
 div[data-tab-id="Vesktop"]::before {
